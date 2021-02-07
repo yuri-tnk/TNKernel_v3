@@ -1,0 +1,19 @@
+"--endian=little" 
+
+"--cpu=Cortex-M7" 
+
+"--fpu=VFPv5_SP" 
+
+"-p" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CONFIG\debugger\ST\STM32F746ZE.ddf" 
+
+"--semihosting=none" 
+
+"--device=STM32F746ZE" 
+
+"--multicore_nr_of_cores=1" 
+
+
+
+

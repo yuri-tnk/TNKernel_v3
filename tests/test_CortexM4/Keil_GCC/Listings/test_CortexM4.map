@@ -1,0 +1,1598 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memcpy.o)
+                              ./objects/tn_mailbox.o (memcpy)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
+                              ./objects/shell.o (memset)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcasecmp.o)
+                              ./objects/shell.o (strcasecmp)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcat.o)
+                              ./objects/test_event.o (strcat)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcmp.o)
+                              ./objects/test_event.o (strcmp)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+                              ./objects/test_event.o (strcpy)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strlen.o)
+                              ./objects/stm32f4_uart.o (strlen)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcasecmp.o) (__locale_ctype_ptr)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-mbtowc_r.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o) (__ascii_mbtowc)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-wctomb_r.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o) (__ascii_wctomb)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-ctype_.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o) (_ctype_)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o) (_impure_ptr)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_Timer4            0x1c              ./objects/test_timer.o
+tn_user_timer_list_tick
+                    0x40              ./objects/tn.o
+g_evf_dyn_1         0x4               ./objects/test_event.o
+tn_idle_count       0x4               ./objects/tn.o
+g_test_mem_buf      0x1000            ./objects/test_common.o
+tn_os_timer_list_gen
+                    0x8               ./objects/tn.o
+testMutex_A         0x28              ./objects/test_mutex.o
+g_test_mem          0x24              ./objects/test_common.o
+p_Timer3            0x4               ./objects/test_timer.o
+tn_curr_run_task    0x4               ./objects/tn.o
+g_tst_queue_A       0x4               ./objects/test_dqueue.o
+gp_C_mbox           0x4               ./objects/test_mailbox.o
+tn_objects_mem      0x24              ./objects/tn.o
+p_Timer2            0x4               ./objects/test_timer.o
+g_fmp               0x24              ./objects/test_mem.o
+tn_next_task_to_run
+                    0x4               ./objects/tn.o
+gp_A_mbox           0x4               ./objects/test_mailbox.o
+g_evf_base1         0x3c              ./objects/test_event.o
+gp_B_dque           0x4               ./objects/test_common.o
+tn_system_state     0x4               ./objects/tn.o
+testSem_A           0x14              ./objects/test_task.o
+tn_user_timer_list_gen
+                    0x8               ./objects/tn.o
+g_tst_mailbox_B     0x34              ./objects/test_mailbox.o
+gp_A_dque           0x4               ./objects/test_common.o
+tn_sp_info          0x8               ./objects/tn.o
+tn_func_exit_stack  0x200             ./objects/tn.o
+tn_sys_tick_sem     0x14              ./objects/tn.o
+g_rx_data           0x78              ./objects/test_mailbox.o
+g_tx_data           0x78              ./objects/test_mailbox.o
+g_Timer5            0x1c              ./objects/test_timer.o
+g_ranctx            0x10              ./objects/test_utils.o
+semTestPrint        0x4               ./objects/project_main.o
+g_base_test_task    0x70              ./objects/test_common.o
+gp_tfmp_fmp         0x4               ./objects/test_mem.o
+sys_obj_mem_arr     0x1000            ./objects/project_main.o
+g_curr_test         0x64              ./objects/test_common.o
+g_tst_queue_B       0x30              ./objects/test_dqueue.o
+g_test_end_evf      0x10              ./objects/test_common.o
+gp_C_dque           0x4               ./objects/test_common.o
+testSem             0x14              ./objects/test_sem.o
+tn_os_timer_list_tick
+                    0x40              ./objects/tn.o
+g_test_print_buf    0x100             ./objects/project_main.o
+g_test_rdy_sem      0x14              ./objects/test_common.o
+testMutex_B         0x28              ./objects/test_mutex.o
+g_fmp_pool          0x40              ./objects/test_mem.o
+g_pmutex_B          0x4               ./objects/test_mutex.o
+queueShellEvents    0x30              ./objects/project_main.o
+task_F_stack        0x200             ./objects/test_task.o
+tn_created_tasks_qty
+                    0x4               ./objects/tn.o
+p_Timer1            0x4               ./objects/test_timer.o
+gp_B_mbox           0x4               ./objects/test_mailbox.o
+gp_tfmp_dque        0x4               ./objects/test_mem.o
+tn_sys_tick_count   0x4               ./objects/tn.o
+tn_create_queue     0x8               ./objects/tn.o
+g_pmutex_A          0x4               ./objects/test_mutex.o
+g_tst_mailbox_A     0x4               ./objects/test_mailbox.o
+g_uart2_info        0x98              ./objects/project_main.o
+g_evf_2             0x10              ./objects/test_event.o
+g_evf_dyn_2         0x4               ./objects/test_event.o
+tn_idle_task        0x70              ./objects/tn.o
+tn_ready_list       0x100             ./objects/tn.o
+g_task_F            0x70              ./objects/test_task.o
+tn_tslice_ticks     0x40              ./objects/tn.o
+g_base_test_task_stack
+                    0x180             ./objects/test_common.o
+tn_ready_to_run_bmp
+                    0x4               ./objects/tn.o
+g_evf_1             0x10              ./objects/test_event.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00080000         xr
+RAM              0x20000000         0x00020000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./objects/project_main.o
+LOAD ./objects/tn_user.o
+LOAD ./objects/utils_arch.o
+LOAD ./objects/shell.o
+LOAD ./objects/test_shell_func.o
+LOAD ./objects/tn_sprintf.o
+LOAD ./objects/utils.o
+LOAD ./objects/tn_stm32f446_startup_gcc.o
+LOAD ./objects/tn_port_cortexm0_m7.o
+LOAD ./objects/tn_port_cortexm0_m7_asm.o
+LOAD ./objects/tn_utils.o
+LOAD ./objects/tn_timer.o
+LOAD ./objects/tn_task.o
+LOAD ./objects/tn_sys.o
+LOAD ./objects/tn_sem.o
+LOAD ./objects/tn_mutex.o
+LOAD ./objects/tn_mem.o
+LOAD ./objects/tn_mailbox.o
+LOAD ./objects/tn_event.o
+LOAD ./objects/tn_dqueue.o
+LOAD ./objects/tn.o
+LOAD ./objects/tn_alloc.o
+LOAD ./objects/stm32f4_uart.o
+LOAD ./objects/stm32f4xx_dma.o
+LOAD ./objects/stm32f4xx_gpio.o
+LOAD ./objects/stm32f4xx_rcc.o
+LOAD ./objects/stm32f4xx_usart.o
+LOAD ./objects/system_stm32f4xx.o
+LOAD ./objects/test_common.o
+LOAD ./objects/test_dqueue.o
+LOAD ./objects/test_event.o
+LOAD ./objects/test_mailbox.o
+LOAD ./objects/test_mem.o
+LOAD ./objects/test_mutex.o
+LOAD ./objects/test_sem.o
+LOAD ./objects/test_task.o
+LOAD ./objects/test_timer.o
+LOAD ./objects/test_utils.o
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libnosys.a
+END GROUP
+                0x20020000                PROVIDE (__stack_end__, 0x20020000)
+
+.text           0x08000000     0xe888
+ *(.vectors)
+ .vectors       0x08000000      0x1c4 ./objects/tn_stm32f446_startup_gcc.o
+                0x08000000                _vectors
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x080001c4      0x238 ./objects/project_main.o
+                0x080001c4                tn_os_tick_task_func
+                0x080001e4                task_uart2_rx_func
+                0x0800021c                task_main_func
+                0x08000258                task_io_func
+                0x08000270                tn_app_init
+                0x080003b4                BSP_LED_Init
+                0x080003ec                BSP_LED_Toggle
+ .text.startup  0x080003fc       0x54 ./objects/project_main.o
+                0x080003fc                main
+ .text          0x08000450       0x6c ./objects/tn_user.o
+                0x08000450                tn_cpu_int_enable
+                0x08000454                SysTick_Handler
+                0x08000464                DMA1_Stream6_IRQHandler
+                0x0800049c                TIM2_IRQHandler
+ .text          0x080004bc       0xa8 ./objects/utils_arch.o
+                0x080004bc                test_arch_set_int_timer
+                0x08000508                test_arch_restart_int_timer
+                0x08000540                test_arch_disable_timer_int
+ .text          0x08000564      0x298 ./objects/shell.o
+                0x08000564                sh_init
+                0x080005bc                sh_input
+                0x0800065c                sh_start_cmd_exec
+                0x08000674                sh_send
+                0x08000688                sh_prompt
+                0x080006b0                sh_stop_cmd_exec
+                0x080006b8                sh_echo
+                0x080006cc                sh_putchar
+                0x080006d0                sh_cmd_end
+                0x08000704                sh_get_command_line_args
+                0x0800075c                sh_do_cmd_exec
+ .text          0x080007fc      0x190 ./objects/test_shell_func.o
+                0x080007fc                sh_exec_cmd_psw
+                0x0800080c                sh_exec_cmd_ver
+                0x08000828                sh_exec_cmd_1
+                0x08000838                sh_exec_cmd_2
+                0x08000848                sh_exec_cmd_3
+                0x08000858                sh_exec_dump_stk
+                0x080008b4                sh_exec_test_sem
+                0x080008c4                sh_exec_test_fmp
+                0x080008d4                sh_exec_test_mutex
+                0x080008e4                sh_exec_test_dqueue
+                0x080008f4                sh_exec_test_mailbox
+                0x08000904                sh_exec_test_evf
+                0x08000914                sh_exec_test_task
+                0x08000924                sh_exec_test_timer
+                0x08000934                sh_exec_test_all
+ .text          0x0800098c      0x428 ./objects/tn_sprintf.o
+                0x08000d70                tn_snprintf
+                0x08000d98                vStrPrintf
+ .text          0x08000db4       0xb4 ./objects/utils.o
+                0x08000db4                TestPrint
+                0x08000e00                do_itoa
+ .text          0x08000e68        0x0 ./objects/tn_stm32f446_startup_gcc.o
+ .text          0x08000e68       0xbc ./objects/tn_port_cortexm0_m7.o
+                0x08000e68                tn_stack_init
+                0x08000ef0                tn_reset_idle_task_stack
+                0x08000f08                tn_check_stack
+                0x08000f20                tn_int_stack_init
+ .text          0x08000f24      0x158 ./objects/tn_port_cortexm0_m7_asm.o
+                0x08000f24                tn_start_exe
+                0x08000f5a                PendSV_Handler
+                0x08000fbc                tn_task_exit_asm
+                0x08000ff4                tn_switch_context
+                0x08000ffe                tn_int_exit
+                0x08001008                tn_cpu_save_sr
+                0x08001010                tn_cpu_restore_sr
+                0x08001016                tn_chk_irq_disabled
+                0x0800101c                ffs_asm
+                0x0800102c                tn_func_to_ul_1
+                0x0800102e                tn_func_to_ul_2
+                0x08001030                tn_void_to_ul
+                0x08001032                tn_arm_disable_interrupts
+                0x08001036                tn_arm_enable_interrupts
+                0x0800103a                tn_inside_int
+                0x0800104a                do_delay
+ .text          0x0800107c       0xe0 ./objects/tn_utils.o
+                0x0800107c                queue_reset
+                0x08001082                is_queue_empty
+                0x08001096                queue_add_head
+                0x080010a2                queue_insert_by_priority
+                0x080010d2                queue_add_tail
+                0x080010de                queue_remove_head
+                0x080010f4                queue_remove_tail
+                0x08001106                queue_remove_entry
+                0x08001112                queue_contains_entry
+                0x08001128                sll_init
+                0x08001130                sll_remove_head
+                0x0800113c                sll_add_tail
+                0x08001150                sll_add_head
+ .text          0x0800115c      0x2cc ./objects/tn_timer.o
+                0x080011b0                tn_timer_create
+                0x080011f0                tn_timer_create_dyn
+                0x08001260                tn_timer_delete
+                0x080012c4                tn_timer_set
+                0x08001320                tn_timer_cancel
+                0x08001368                tn_user_timers_tick_proc
+ .text          0x08001428      0x598 ./objects/tn_task.o
+                0x0800145e                tn_task_create
+                0x08001564                tn_task_create_dyn
+                0x08001620                tn_task_exit
+                0x08001684                tn_task_delete
+                0x08001748                tn_task_suspend
+                0x080017c8                tn_task_resume
+                0x08001880                tn_task_sleep
+                0x080018c4                tn_task_activate
+                0x08001950                tn_task_change_priority
+ .text          0x080019c0      0x3e4 ./objects/tn_sys.o
+                0x080019c0                tn_update_wait_queue
+                0x080019da                find_next_task_to_run
+                0x08001a10                tn_update_ready_queue
+                0x08001a64                tn_update_priority
+                0x08001ac8                task_to_non_runnable
+                0x08001b20                task_to_runnable
+                0x08001b60                delete_task_resources
+                0x08001b9c                tn_os_timer_start
+                0x08001be8                task_curr_to_wait_action
+                0x08001c34                tn_os_timer_cancel
+                0x08001c5c                task_wait_complete
+                0x08001c88                task_set_dormant_state
+                0x08001cbe                tn_os_timers_tick_proc
+                0x08001d6c                tn_release_wait_que
+ .text          0x08001da4      0x26c ./objects/tn_sem.o
+                0x08001da4                tn_sem_create
+                0x08001de4                tn_sem_create_dyn
+                0x08001e54                tn_sem_delete
+                0x08001ec0                do_sem_signal
+                0x08001f02                tn_sem_signal
+                0x08001f68                do_sem_acquire
+                0x08001f8a                tn_sem_acquire
+ .text          0x08002010      0x3d8 ./objects/tn_mutex.o
+                0x08002010                tn_mutex_create
+                0x0800205c                tn_mutex_create_dyn
+                0x080020c4                tn_mutex_lock
+                0x080021ac                do_mutex_unlock
+                0x080022b4                tn_mutex_delete
+                0x08002328                tn_mutex_unlock
+                0x08002380                do_release_mutex_queue
+                0x080023ac                do_set_mutex_holder_max_priority
+ .text          0x080023e8      0x344 ./objects/tn_mem.o
+                0x08002438                tn_fmem_create
+                0x080024dc                tn_fmem_create_dyn
+                0x08002578                tn_fmem_delete
+                0x080025f8                tn_fmem_get
+                0x080026b8                tn_fmem_release
+ .text          0x0800272c      0x4e0 ./objects/tn_mailbox.o
+                0x0800272c                tn_mailbox_create
+                0x080027d8                tn_mailbox_create_dyn
+                0x08002898                tn_mailbox_delete
+                0x08002910                tn_mailbox_receive
+                0x08002a60                tn_mailbox_send_ex
+                0x08002bcc                tn_mailbox_num_free_entries
+                0x08002bea                tn_mailbox_is_empty
+ .text          0x08002c0c      0x32c ./objects/tn_event.o
+                0x08002c60                tn_eventflags_create
+                0x08002ca0                tn_eventflags_create_dyn
+                0x08002d08                tn_eventflags_delete
+                0x08002d80                tn_eventflags_wait
+                0x08002e88                tn_eventflags_set
+                0x08002ef8                tn_eventflags_clear
+ .text          0x08002f38      0x49c ./objects/tn_dqueue.o
+                0x08002f38                tn_dqueue_create
+                0x08002fd4                tn_dqueue_create_dyn
+                0x0800306c                tn_dqueue_delete
+                0x080030e4                tn_dqueue_num_free_entries
+                0x08003102                tn_dqueue_is_empty
+                0x08003122                do_input_sem
+                0x08003152                do_output_sem
+                0x08003192                tn_dqueue_receive
+                0x080032a8                tn_dqueue_send_ex
+ .text          0x080033d4      0x23c ./objects/tn.o
+                0x080033d4                tn_idle_task_func
+                0x080033fc                tn_start_system
+                0x08003520                tn_sys_tslice_ticks
+                0x0800356c                tn_tick_int_processing
+                0x080035f8                tn_get_sys_ticks
+ .text          0x08003610      0x260 ./objects/tn_alloc.o
+                0x08003610                tn_alloc_init
+                0x0800364c                tn_alloc
+                0x080036dc                tn_dealloc
+                0x08003824                tdump
+ .text          0x08003870      0x37c ./objects/stm32f4_uart.o
+                0x08003870                bsp_uart2_open
+                0x080039d4                bsp_uart2_close
+                0x08003a5c                bsp_uart2_read
+                0x08003af0                bsp_uart2_transmit
+                0x08003bac                uart2_tx_str
+                0x08003bd0                uart2_tx_char
+ .text          0x08003bec      0x308 ./objects/stm32f4xx_dma.o
+                0x08003bec                DMA_DeInit
+                0x08003cfc                DMA_Init
+                0x08003d50                DMA_StructInit
+                0x08003d72                DMA_Cmd
+                0x08003d84                DMA_PeriphIncOffsetSizeConfig
+                0x08003d96                DMA_FlowControllerConfig
+                0x08003da8                DMA_SetCurrDataCounter
+                0x08003dac                DMA_GetCurrDataCounter
+                0x08003db2                DMA_DoubleBufferModeConfig
+                0x08003dc6                DMA_DoubleBufferModeCmd
+                0x08003dd8                DMA_MemoryTargetConfig
+                0x08003de2                DMA_GetCurrentMemoryTarget
+                0x08003dea                DMA_GetCmdStatus
+                0x08003df2                DMA_GetFIFOStatus
+                0x08003dfa                DMA_GetFlagStatus
+                0x08003e30                DMA_ClearFlag
+                0x08003e60                DMA_ITConfig
+                0x08003e9e                DMA_GetITStatus
+                0x08003ef0                DMA_ClearITPendingBit
+ .text          0x08003ef4      0x1f8 ./objects/stm32f4xx_gpio.o
+                0x08003ef4                GPIO_DeInit
+                0x08003fc0                GPIO_Init
+                0x0800405c                GPIO_StructInit
+                0x0800406e                GPIO_PinLockConfig
+                0x08004092                GPIO_ReadInputDataBit
+                0x0800409e                GPIO_ReadInputData
+                0x080040a4                GPIO_ReadOutputDataBit
+                0x080040b0                GPIO_ReadOutputData
+                0x080040b6                GPIO_SetBits
+                0x080040b8                GPIO_ResetBits
+                0x080040ba                GPIO_WriteBit
+                0x080040bc                GPIO_Write
+                0x080040c0                GPIO_ToggleBits
+                0x080040c8                GPIO_PinAFConfig
+ .text          0x080040ec      0x64c ./objects/stm32f4xx_rcc.o
+                0x080040ec                RCC_DeInit
+                0x08004134                RCC_HSEConfig
+                0x08004144                RCC_AdjustHSICalibrationValue
+                0x08004158                RCC_HSICmd
+                0x08004164                RCC_LSEConfig
+                0x08004184                RCC_LSICmd
+                0x08004190                RCC_PLLConfig
+                0x080041b8                RCC_PLLCmd
+                0x080041c4                RCC_PLLI2SConfig
+                0x080041e8                RCC_PLLI2SCmd
+                0x080041f4                RCC_PLLSAIConfig
+                0x08004210                RCC_PLLSAICmd
+                0x0800421c                RCC_ClockSecuritySystemCmd
+                0x08004228                RCC_MCO1Config
+                0x0800423c                RCC_MCO2Config
+                0x08004250                RCC_SYSCLKConfig
+                0x08004264                RCC_GetSYSCLKSource
+                0x08004274                RCC_HCLKConfig
+                0x08004288                RCC_PCLK1Config
+                0x0800429c                RCC_PCLK2Config
+                0x080042b0                RCC_GetClocksFreq
+                0x08004360                RCC_RTCCLKConfig
+                0x08004390                RCC_RTCCLKCmd
+                0x0800439c                RCC_BackupResetCmd
+                0x080043a8                RCC_I2SCLKConfig
+                0x080043dc                RCC_SAICLKConfig
+                0x08004410                RCC_SAIPLLI2SClkDivConfig
+                0x08004428                RCC_SAIPLLSAIClkDivConfig
+                0x08004444                RCC_LTDCCLKDivConfig
+                0x0800445c                RCC_TIMCLKPresConfig
+                0x08004468                RCC_AHB1PeriphClockCmd
+                0x08004480                RCC_AHB2PeriphClockCmd
+                0x08004498                RCC_AHB3PeriphClockCmd
+                0x080044b0                RCC_APB1PeriphClockCmd
+                0x080044c8                RCC_APB2PeriphClockCmd
+                0x080044e0                RCC_AHB1PeriphResetCmd
+                0x080044f8                RCC_AHB2PeriphResetCmd
+                0x08004510                RCC_AHB3PeriphResetCmd
+                0x08004528                RCC_APB1PeriphResetCmd
+                0x08004540                RCC_APB2PeriphResetCmd
+                0x08004558                RCC_AHB1PeriphClockLPModeCmd
+                0x08004570                RCC_AHB2PeriphClockLPModeCmd
+                0x08004588                RCC_AHB3PeriphClockLPModeCmd
+                0x080045a0                RCC_APB1PeriphClockLPModeCmd
+                0x080045b8                RCC_APB2PeriphClockLPModeCmd
+                0x080045d0                RCC_LSEModeConfig
+                0x080045e8                RCC_48MHzClockSourceConfig
+                0x08004604                RCC_SDIOClockSourceConfig
+                0x08004620                RCC_AHB1ClockGatingCmd
+                0x0800463c                RCC_SPDIFRXClockSourceConfig
+                0x08004658                RCC_CECClockSourceConfig
+                0x08004674                RCC_FMPI2C1ClockSourceConfig
+                0x08004694                RCC_ITConfig
+                0x080046ac                RCC_GetFlagStatus
+                0x080046d4                RCC_WaitForHSEStartUp
+                0x08004706                RCC_ClearFlag
+                0x08004718                RCC_GetITStatus
+                0x0800472c                RCC_ClearITPendingBit
+ .text          0x08004738      0x38c ./objects/stm32f4xx_usart.o
+                0x08004738                USART_DeInit
+                0x080047e8                USART_Init
+                0x08004898                USART_StructInit
+                0x080048ac                USART_ClockInit
+                0x080048ca                USART_ClockStructInit
+                0x080048d6                USART_Cmd
+                0x080048ec                USART_SetPrescaler
+                0x080048fc                USART_OverSampling8Cmd
+                0x0800490e                USART_OneBitMethodCmd
+                0x08004924                USART_SendData
+                0x0800492c                USART_ReceiveData
+                0x08004934                USART_SetAddress
+                0x08004948                USART_ReceiverWakeUpCmd
+                0x0800495e                USART_WakeUpConfig
+                0x08004972                USART_LINBreakDetectLengthConfig
+                0x08004986                USART_LINCmd
+                0x0800499c                USART_SendBreak
+                0x080049a6                USART_HalfDuplexCmd
+                0x080049bc                USART_SetGuardTime
+                0x080049cc                USART_SmartCardCmd
+                0x080049e2                USART_SmartCardNACKCmd
+                0x080049f8                USART_IrDAConfig
+                0x08004a0c                USART_IrDACmd
+                0x08004a22                USART_DMACmd
+                0x08004a34                USART_ITConfig
+                0x08004a66                USART_GetFlagStatus
+                0x08004a72                USART_ClearFlag
+                0x08004a7a                USART_GetITStatus
+                0x08004ab6                USART_ClearITPendingBit
+ .text          0x08004ac4      0x158 ./objects/system_stm32f4xx.o
+                0x08004ac4                SystemInit
+                0x08004bac                SystemCoreClockUpdate
+ .text          0x08004c1c      0x118 ./objects/test_common.o
+                0x08004c1c                setup_test_int_timer
+                0x08004c34                do_tests
+                0x08004cd0                test_end_signal_create
+                0x08004cdc                test_end_signal_delete
+                0x08004ce8                test_end_do_signal
+                0x08004cf4                test_end_wait
+                0x08004d14                create_test_task
+ .text          0x08004d34      0xd50 ./objects/test_dqueue.o
+ .text          0x08005a84      0xd04 ./objects/test_event.o
+ .text          0x08006788      0xfd4 ./objects/test_mailbox.o
+ .text          0x0800775c      0xeb4 ./objects/test_mem.o
+ .text          0x08008610     0x172c ./objects/test_mutex.o
+ .text          0x08009d3c      0xee8 ./objects/test_sem.o
+ .text          0x0800ac24      0x9f8 ./objects/test_task.o
+ .text          0x0800b61c      0x6e4 ./objects/test_timer.o
+ .text          0x0800bd00      0x1d4 ./objects/test_utils.o
+                0x0800bd00                update_crc32
+                0x0800bd14                chk_random_buf
+                0x0800bd5c                sfsi_rand
+                0x0800bd84                fill_random_buf
+                0x0800bde0                sfsi_randomize
+                0x0800be04                async_read_sys_tick
+                0x0800be1c                long_job_delay
+                0x0800be3c                find_free_cell
+                0x0800be7e                find_occupied_cell
+                0x0800bec0                tick_val_inside
+ .text          0x0800bed4      0x134 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memcpy.o)
+                0x0800bed4                memcpy
+ .text          0x0800c008        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
+ .text.memset   0x0800c008       0x94 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
+                0x0800c008                memset
+ .text          0x0800c09c        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcasecmp.o)
+ .text.strcasecmp
+                0x0800c09c       0x44 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcasecmp.o)
+                0x0800c09c                strcasecmp
+ .text          0x0800c0e0        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcat.o)
+ .text.strcat   0x0800c0e0       0x40 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcat.o)
+                0x0800c0e0                strcat
+ .text          0x0800c120      0x2dc c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcmp.o)
+                0x0800c128                strcmp
+ .text          0x0800c3fc        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+ .text.strcpy   0x0800c3fc       0xbc c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+                0x0800c3fc                strcpy
+ *fill*         0x0800c4b8        0x8 
+ .text          0x0800c4c0       0xdc c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strlen.o)
+                0x0800c4c0                strlen
+ .text          0x0800c59c        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x0800c59c       0x40 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+                0x0800c59c                _setlocale_r
+ .text.__locale_mb_cur_max
+                0x0800c5dc       0x1c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+                0x0800c5dc                __locale_mb_cur_max
+ .text.__locale_ctype_ptr_l
+                0x0800c5f8        0x8 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+                0x0800c5f8                __locale_ctype_ptr_l
+ .text.__locale_ctype_ptr
+                0x0800c600       0x1c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+                0x0800c600                __locale_ctype_ptr
+ .text.setlocale
+                0x0800c61c       0x10 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+                0x0800c61c                setlocale
+ .text          0x0800c62c        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x0800c62c       0x24 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-mbtowc_r.o)
+                0x0800c62c                _mbtowc_r
+ .text.__ascii_mbtowc
+                0x0800c650       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-mbtowc_r.o)
+                0x0800c650                __ascii_mbtowc
+ .text          0x0800c67c        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x0800c67c       0x24 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-wctomb_r.o)
+                0x0800c67c                _wctomb_r
+ .text.__ascii_wctomb
+                0x0800c6a0       0x1c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-wctomb_r.o)
+                0x0800c6a0                __ascii_wctomb
+ .text          0x0800c6bc        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-ctype_.o)
+ .text          0x0800c6bc        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x0800c6bc        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0800c6bc        0x0 linker stubs
+                0x0800c6bc                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0800c6bc        0xf ./objects/project_main.o
+ *fill*         0x0800c6cb        0x1 
+ .rodata.str1.4
+                0x0800c6cc       0x1b ./objects/shell.o
+                                 0x1f (size before relaxing)
+ *fill*         0x0800c6e7        0x1 
+ .rodata        0x0800c6e8       0x7c ./objects/test_shell_func.o
+                0x0800c6e8                g_shell_cmd_arr_size
+                0x0800c6ec                g_shell_cmd_arr
+ .rodata.str1.4
+                0x0800c764      0x165 ./objects/test_shell_func.o
+ .rodata.str1.1
+                0x0800c8c9       0x6f ./objects/tn_alloc.o
+                                 0x72 (size before relaxing)
+ .rodata.str1.1
+                0x0800c938       0x63 ./objects/test_common.o
+ *fill*         0x0800c99b        0x1 
+ .rodata        0x0800c99c       0x2c ./objects/test_dqueue.o
+                0x0800c9ac                g_dqueue_tests_arr
+ .rodata.str1.1
+                0x0800c9c8      0x321 ./objects/test_dqueue.o
+ *fill*         0x0800cce9        0x3 
+ .rodata        0x0800ccec       0x24 ./objects/test_event.o
+                0x0800ccec                g_evf_tests_arr
+ .rodata.str1.1
+                0x0800cd10      0x23e ./objects/test_event.o
+                                0x29b (size before relaxing)
+ *fill*         0x0800cf4e        0x2 
+ .rodata        0x0800cf50       0x20 ./objects/test_mailbox.o
+                0x0800cf50                g_mailbox_tests_arr
+ .rodata.str1.1
+                0x0800cf70      0x369 ./objects/test_mailbox.o
+                                0x3ae (size before relaxing)
+ *fill*         0x0800d2d9        0x3 
+ .rodata        0x0800d2dc       0x20 ./objects/test_mem.o
+                0x0800d2dc                g_fmp_tests_arr
+ .rodata.str1.1
+                0x0800d2fc      0x307 ./objects/test_mem.o
+                                0x34f (size before relaxing)
+ *fill*         0x0800d603        0x1 
+ .rodata        0x0800d604       0x28 ./objects/test_mutex.o
+                0x0800d604                g_mutex_tests_arr
+ .rodata.str1.1
+                0x0800d62c      0x475 ./objects/test_mutex.o
+                                0x4e8 (size before relaxing)
+ *fill*         0x0800daa1        0x3 
+ .rodata        0x0800daa4       0x34 ./objects/test_sem.o
+                0x0800daa4                g_sem_tests_arr
+ .rodata.str1.1
+                0x0800dad8      0x49e ./objects/test_sem.o
+                                0x4fc (size before relaxing)
+ *fill*         0x0800df76        0x2 
+ .rodata        0x0800df78       0x14 ./objects/test_task.o
+                0x0800df78                g_task_tests_arr
+ .rodata.str1.1
+                0x0800df8c      0x1f0 ./objects/test_task.o
+                                0x229 (size before relaxing)
+ .rodata        0x0800e17c        0xc ./objects/test_timer.o
+                0x0800e17c                g_timer_tests_arr
+ .rodata.str1.1
+                0x0800e188       0xe4 ./objects/test_timer.o
+                                0x11b (size before relaxing)
+ .rodata        0x0800e26c      0x400 ./objects/test_utils.o
+ .rodata._setlocale_r.str1.4
+                0x0800e66c        0xa c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+                                  0xd (size before relaxing)
+ *fill*         0x0800e676        0x2 
+ .rodata.str1.4
+                0x0800e678        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+                                  0x2 (size before relaxing)
+ .rodata._ctype_
+                0x0800e67c      0x101 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-ctype_.o)
+                0x0800e67c                _ctype_
+ *fill*         0x0800e77d        0x3 
+ .rodata._global_impure_ptr
+                0x0800e780        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
+                0x0800e780                _global_impure_ptr
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ *(.init)
+ .init          0x0800e784      0x104 ./objects/tn_stm32f446_startup_gcc.o
+                0x0800e784                Reset_Handler
+                0x0800e7b6                NMI_Handler
+                0x0800e7b8                HardFault_Handler
+                0x0800e7ba                MemManage_Handler
+                0x0800e7bc                BusFault_Handler
+                0x0800e7be                UsageFault_Handler
+                0x0800e7c0                SVC_Handler
+                0x0800e7c2                DebugMon_Handler
+                0x0800e7c8                WWDG_IRQHandler
+                0x0800e7ca                PVD_IRQHandler
+                0x0800e7cc                TAMP_STAMP_IRQHandler
+                0x0800e7ce                RTC_WKUP_IRQHandler
+                0x0800e7d0                FLASH_IRQHandler
+                0x0800e7d2                RCC_IRQHandler
+                0x0800e7d4                EXTI0_IRQHandler
+                0x0800e7d6                EXTI1_IRQHandler
+                0x0800e7d8                EXTI2_IRQHandler
+                0x0800e7da                EXTI3_IRQHandler
+                0x0800e7dc                EXTI4_IRQHandler
+                0x0800e7de                DMA1_Stream0_IRQHandler
+                0x0800e7e0                DMA1_Stream1_IRQHandler
+                0x0800e7e2                DMA1_Stream2_IRQHandler
+                0x0800e7e4                DMA1_Stream3_IRQHandler
+                0x0800e7e6                DMA1_Stream4_IRQHandler
+                0x0800e7e8                DMA1_Stream5_IRQHandler
+                0x0800e7ec                ADC_IRQHandler
+                0x0800e7ee                CAN1_TX_IRQHandler
+                0x0800e7f0                CAN1_RX0_IRQHandler
+                0x0800e7f2                CAN1_RX1_IRQHandler
+                0x0800e7f4                CAN1_SCE_IRQHandler
+                0x0800e7f6                EXTI9_5_IRQHandler
+                0x0800e7f8                TIM1_BRK_TIM9_IRQHandler
+                0x0800e7fa                TIM1_UP_TIM10_IRQHandler
+                0x0800e7fc                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0800e7fe                TIM1_CC_IRQHandler
+                0x0800e802                TIM3_IRQHandler
+                0x0800e804                TIM4_IRQHandler
+                0x0800e806                I2C1_EV_IRQHandler
+                0x0800e808                I2C1_ER_IRQHandler
+                0x0800e80a                I2C2_EV_IRQHandler
+                0x0800e80c                I2C2_ER_IRQHandler
+                0x0800e80e                SPI1_IRQHandler
+                0x0800e810                SPI2_IRQHandler
+                0x0800e812                USART1_IRQHandler
+                0x0800e814                USART2_IRQHandler
+                0x0800e816                USART3_IRQHandler
+                0x0800e818                EXTI15_10_IRQHandler
+                0x0800e81a                RTC_Alarm_IRQHandler
+                0x0800e81c                OTG_FS_WKUP_IRQHandler
+                0x0800e81e                TIM8_BRK_TIM12_IRQHandler
+                0x0800e820                TIM8_UP_TIM13_IRQHandler
+                0x0800e822                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0800e824                TIM8_CC_IRQHandler
+                0x0800e826                DMA1_Stream7_IRQHandler
+                0x0800e828                FMC_IRQHandler
+                0x0800e82a                SDIO_IRQHandler
+                0x0800e82c                TIM5_IRQHandler
+                0x0800e82e                SPI3_IRQHandler
+                0x0800e830                UART4_IRQHandler
+                0x0800e832                UART5_IRQHandler
+                0x0800e834                TIM6_DAC_IRQHandler
+                0x0800e836                TIM7_IRQHandler
+                0x0800e838                DMA2_Stream0_IRQHandler
+                0x0800e83a                DMA2_Stream1_IRQHandler
+                0x0800e83c                DMA2_Stream2_IRQHandler
+                0x0800e83e                DMA2_Stream3_IRQHandler
+                0x0800e840                DMA2_Stream4_IRQHandler
+                0x0800e842                CAN2_TX_IRQHandler
+                0x0800e844                CAN2_RX0_IRQHandler
+                0x0800e846                CAN2_RX1_IRQHandler
+                0x0800e848                CAN2_SCE_IRQHandler
+                0x0800e84a                OTG_FS_IRQHandler
+                0x0800e84c                DMA2_Stream5_IRQHandler
+                0x0800e84e                DMA2_Stream6_IRQHandler
+                0x0800e850                DMA2_Stream7_IRQHandler
+                0x0800e852                USART6_IRQHandler
+                0x0800e854                I2C3_EV_IRQHandler
+                0x0800e856                I2C3_ER_IRQHandler
+                0x0800e858                OTG_HS_EP1_OUT_IRQHandler
+                0x0800e85a                OTG_HS_EP1_IN_IRQHandler
+                0x0800e85c                OTG_HS_WKUP_IRQHandler
+                0x0800e85e                OTG_HS_IRQHandler
+                0x0800e860                DCMI_IRQHandler
+                0x0800e862                FPU_IRQHandler
+                0x0800e864                SPI4_IRQHandler
+                0x0800e866                SAI1_IRQHandler
+                0x0800e868                SAI2_IRQHandler
+                0x0800e86a                QUADSPI_IRQHandler
+                0x0800e86c                CEC_IRQHandler
+                0x0800e86e                SPDIF_RX_IRQHandler
+                0x0800e870                FMPI2C1_Event_IRQHandler
+                0x0800e872                FMPI2C1_Error_IRQHandler
+ *(.fini)
+                [!provide]                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end, .)
+                [!provide]                PROVIDE (__init_array_start, .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                [!provide]                PROVIDE (__init_array_end, .)
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                [!provide]                PROVIDE (__fini_array_end, .)
+
+.vfp11_veneer   0x0800e888        0x0
+ .vfp11_veneer  0x0800e888        0x0 linker stubs
+
+.v4_bx          0x0800e888        0x0
+ .v4_bx         0x0800e888        0x0 linker stubs
+
+.iplt           0x0800e888        0x0
+ .iplt          0x0800e888        0x0 ./objects/project_main.o
+
+.rel.dyn        0x0800e888        0x0
+ .rel.iplt      0x0800e888        0x0 ./objects/project_main.o
+                0x0800e888                . = ALIGN (0x4)
+                0x0800e888                _etext = .
+                [!provide]                PROVIDE (etext, .)
+
+.data           0x20000000       0x28 load address 0x0800e888
+                0x20000000                _data = .
+ *(.data)
+ .data          0x20000000        0x0 ./objects/project_main.o
+ .data          0x20000000        0x0 ./objects/tn_user.o
+ .data          0x20000000        0x0 ./objects/utils_arch.o
+ .data          0x20000000        0x0 ./objects/shell.o
+ .data          0x20000000        0x0 ./objects/test_shell_func.o
+ .data          0x20000000        0x0 ./objects/tn_sprintf.o
+ .data          0x20000000        0x0 ./objects/utils.o
+ .data          0x20000000        0x0 ./objects/tn_stm32f446_startup_gcc.o
+ .data          0x20000000        0x0 ./objects/tn_port_cortexm0_m7.o
+ .data          0x20000000        0x0 ./objects/tn_port_cortexm0_m7_asm.o
+ .data          0x20000000        0x0 ./objects/tn_utils.o
+ .data          0x20000000        0x0 ./objects/tn_timer.o
+ .data          0x20000000        0x0 ./objects/tn_task.o
+ .data          0x20000000        0x0 ./objects/tn_sys.o
+ .data          0x20000000        0x0 ./objects/tn_sem.o
+ .data          0x20000000        0x0 ./objects/tn_mutex.o
+ .data          0x20000000        0x0 ./objects/tn_mem.o
+ .data          0x20000000        0x0 ./objects/tn_mailbox.o
+ .data          0x20000000        0x0 ./objects/tn_event.o
+ .data          0x20000000        0x0 ./objects/tn_dqueue.o
+ .data          0x20000000        0x4 ./objects/tn.o
+                0x20000000                tn_func_exit_stack_start
+ .data          0x20000004        0x0 ./objects/tn_alloc.o
+ .data          0x20000004        0x0 ./objects/stm32f4_uart.o
+ .data          0x20000004        0x0 ./objects/stm32f4xx_dma.o
+ .data          0x20000004        0x0 ./objects/stm32f4xx_gpio.o
+ .data          0x20000004       0x10 ./objects/stm32f4xx_rcc.o
+ .data          0x20000014        0x0 ./objects/stm32f4xx_usart.o
+ .data          0x20000014       0x14 ./objects/system_stm32f4xx.o
+                0x20000014                SystemCoreClock
+                0x20000018                AHBPrescTable
+ .data          0x20000028        0x0 ./objects/test_common.o
+ .data          0x20000028        0x0 ./objects/test_dqueue.o
+ .data          0x20000028        0x0 ./objects/test_event.o
+ .data          0x20000028        0x0 ./objects/test_mailbox.o
+ .data          0x20000028        0x0 ./objects/test_mem.o
+ .data          0x20000028        0x0 ./objects/test_mutex.o
+ .data          0x20000028        0x0 ./objects/test_sem.o
+ .data          0x20000028        0x0 ./objects/test_task.o
+ .data          0x20000028        0x0 ./objects/test_timer.o
+ .data          0x20000028        0x0 ./objects/test_utils.o
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memcpy.o)
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcasecmp.o)
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcat.o)
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcmp.o)
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strlen.o)
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-mbtowc_r.o)
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-wctomb_r.o)
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-ctype_.o)
+ .data          0x20000028        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
+
+.igot.plt       0x20000028        0x0 load address 0x0800e8b0
+ .igot.plt      0x20000028        0x0 ./objects/project_main.o
+
+.data.__global_locale
+                0x20000028      0x16c load address 0x0800e8b0
+ .data.__global_locale
+                0x20000028      0x16c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+                0x20000028                __global_locale
+
+.data._impure_ptr
+                0x20000194        0x4 load address 0x0800ea1c
+ .data._impure_ptr
+                0x20000194        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
+                0x20000194                _impure_ptr
+
+.data.impure_data
+                0x20000198      0x428 load address 0x0800ea20
+ .data.impure_data
+                0x20000198      0x428 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
+                0x200005c0                . = ALIGN (0x4)
+                0x200005c0                _edata = .
+                [!provide]                PROVIDE (edata, .)
+
+.bss            0x200005c0     0x3c60 load address 0x0800ee48
+                0x200005c0                __bss_start = .
+                0x200005c0                __bss_start__ = .
+ *(.bss)
+ .bss           0x200005c0      0xbf8 ./objects/project_main.o
+ .bss           0x200011b8        0x0 ./objects/tn_user.o
+ .bss           0x200011b8        0x0 ./objects/utils_arch.o
+ .bss           0x200011b8        0x0 ./objects/shell.o
+ .bss           0x200011b8        0x0 ./objects/test_shell_func.o
+ .bss           0x200011b8        0x0 ./objects/tn_sprintf.o
+ .bss           0x200011b8        0x0 ./objects/utils.o
+ .bss           0x200011b8        0x0 ./objects/tn_stm32f446_startup_gcc.o
+ .bss           0x200011b8        0x0 ./objects/tn_port_cortexm0_m7.o
+ .bss           0x200011b8        0x0 ./objects/tn_port_cortexm0_m7_asm.o
+ .bss           0x200011b8        0x0 ./objects/tn_utils.o
+ .bss           0x200011b8        0x0 ./objects/tn_timer.o
+ .bss           0x200011b8        0x0 ./objects/tn_task.o
+ .bss           0x200011b8        0x0 ./objects/tn_sys.o
+ .bss           0x200011b8        0x0 ./objects/tn_sem.o
+ .bss           0x200011b8        0x0 ./objects/tn_mutex.o
+ .bss           0x200011b8        0x0 ./objects/tn_mem.o
+ .bss           0x200011b8        0x0 ./objects/tn_mailbox.o
+ .bss           0x200011b8        0x0 ./objects/tn_event.o
+ .bss           0x200011b8        0x0 ./objects/tn_dqueue.o
+ .bss           0x200011b8      0x1ac ./objects/tn.o
+                0x200011b8                tn_idle_task_hook_func
+                0x20001360                tn_inside_int_cnt
+ .bss           0x20001364        0x0 ./objects/tn_alloc.o
+ .bss           0x20001364        0x0 ./objects/stm32f4_uart.o
+ .bss           0x20001364        0x0 ./objects/stm32f4xx_dma.o
+ .bss           0x20001364        0x0 ./objects/stm32f4xx_gpio.o
+ .bss           0x20001364        0x0 ./objects/stm32f4xx_rcc.o
+ .bss           0x20001364        0x0 ./objects/stm32f4xx_usart.o
+ .bss           0x20001364        0x0 ./objects/system_stm32f4xx.o
+ .bss           0x20001364       0x14 ./objects/test_common.o
+                0x20001364                task_E
+                0x20001368                task_D
+                0x2000136c                task_C
+                0x20001370                task_B
+                0x20001374                task_A
+ .bss           0x20001378        0x0 ./objects/test_dqueue.o
+ .bss           0x20001378        0x0 ./objects/test_event.o
+ .bss           0x20001378        0x0 ./objects/test_mailbox.o
+ .bss           0x20001378        0x0 ./objects/test_mem.o
+ .bss           0x20001378        0x0 ./objects/test_mutex.o
+ .bss           0x20001378        0x0 ./objects/test_sem.o
+ .bss           0x20001378        0x0 ./objects/test_task.o
+ .bss           0x20001378        0x0 ./objects/test_timer.o
+ .bss           0x20001378        0x0 ./objects/test_utils.o
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memcpy.o)
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcasecmp.o)
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcat.o)
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcmp.o)
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strlen.o)
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-mbtowc_r.o)
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-wctomb_r.o)
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-ctype_.o)
+ .bss           0x20001378        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
+                0x20001378                . = ALIGN (0x4)
+ *(.bss.*)
+ .bss._PathLocale
+                0x20001378        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+                0x20001378                _PathLocale
+                0x2000137c                . = ALIGN (0x4)
+ *(COMMON)
+ *fill*         0x2000137c        0x4 
+ COMMON         0x20001380     0x11d0 ./objects/project_main.o
+                0x20001380                semTestPrint
+                0x20001388                sys_obj_mem_arr
+                0x20002388                g_test_print_buf
+                0x20002488                queueShellEvents
+                0x200024b8                g_uart2_info
+ COMMON         0x20002550      0x4a8 ./objects/tn.o
+                0x20002550                tn_user_timer_list_tick
+                0x20002590                tn_idle_count
+                0x20002594                tn_os_timer_list_gen
+                0x2000259c                tn_curr_run_task
+                0x200025a0                tn_objects_mem
+                0x200025c4                tn_next_task_to_run
+                0x200025c8                tn_system_state
+                0x200025cc                tn_user_timer_list_gen
+                0x200025d4                tn_sp_info
+                0x200025e0                tn_func_exit_stack
+                0x200027e0                tn_sys_tick_sem
+                0x200027f4                tn_os_timer_list_tick
+                0x20002834                tn_created_tasks_qty
+                0x20002838                tn_sys_tick_count
+                0x2000283c                tn_create_queue
+                0x20002844                tn_idle_task
+                0x200028b4                tn_ready_list
+                0x200029b4                tn_tslice_ticks
+                0x200029f4                tn_ready_to_run_bmp
+ COMMON         0x200029f8     0x12a8 ./objects/test_common.o
+                0x200029f8                g_test_mem_buf
+                0x200039f8                g_test_mem
+                0x20003a1c                gp_B_dque
+                0x20003a20                gp_A_dque
+                0x20003a24                g_base_test_task
+                0x20003a94                g_curr_test
+                0x20003af8                g_test_end_evf
+                0x20003b08                gp_C_dque
+                0x20003b0c                g_test_rdy_sem
+                0x20003b20                g_base_test_task_stack
+ COMMON         0x20003ca0       0x34 ./objects/test_dqueue.o
+                0x20003ca0                g_tst_queue_A
+                0x20003ca4                g_tst_queue_B
+ COMMON         0x20003cd4       0x64 ./objects/test_event.o
+                0x20003cd4                g_evf_dyn_1
+                0x20003cd8                g_evf_base1
+                0x20003d14                g_evf_2
+                0x20003d24                g_evf_dyn_2
+                0x20003d28                g_evf_1
+ COMMON         0x20003d38      0x134 ./objects/test_mailbox.o
+                0x20003d38                gp_C_mbox
+                0x20003d3c                gp_A_mbox
+                0x20003d40                g_tst_mailbox_B
+                0x20003d74                g_rx_data
+                0x20003dec                g_tx_data
+                0x20003e64                gp_B_mbox
+                0x20003e68                g_tst_mailbox_A
+ *fill*         0x20003e6c        0x4 
+ COMMON         0x20003e70       0x6c ./objects/test_mem.o
+                0x20003e70                g_fmp
+                0x20003e94                gp_tfmp_fmp
+                0x20003e98                g_fmp_pool
+                0x20003ed8                gp_tfmp_dque
+ COMMON         0x20003edc       0x58 ./objects/test_mutex.o
+                0x20003edc                testMutex_A
+                0x20003f04                testMutex_B
+                0x20003f2c                g_pmutex_B
+                0x20003f30                g_pmutex_A
+ COMMON         0x20003f34       0x14 ./objects/test_sem.o
+                0x20003f34                testSem
+ COMMON         0x20003f48      0x284 ./objects/test_task.o
+                0x20003f48                testSem_A
+                0x20003f5c                task_F_stack
+                0x2000415c                g_task_F
+ COMMON         0x200041cc       0x44 ./objects/test_timer.o
+                0x200041cc                g_Timer4
+                0x200041e8                p_Timer3
+                0x200041ec                p_Timer2
+                0x200041f0                g_Timer5
+                0x2000420c                p_Timer1
+ COMMON         0x20004210       0x10 ./objects/test_utils.o
+                0x20004210                g_ranctx
+                0x20004220                . = ALIGN (0x4)
+                0x20004220                . = ALIGN (0x4)
+                0x20004220                __bss_end__ = .
+                [!provide]                PROVIDE (__bss_end, .)
+                0x20004220                _end = .
+                [!provide]                PROVIDE (end, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x4c8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ./objects/project_main.o
+ .debug_aranges
+                0x00000028       0x20 ./objects/tn_user.o
+ .debug_aranges
+                0x00000048       0x20 ./objects/utils_arch.o
+ .debug_aranges
+                0x00000068       0x20 ./objects/shell.o
+ .debug_aranges
+                0x00000088       0x20 ./objects/test_shell_func.o
+ .debug_aranges
+                0x000000a8       0x20 ./objects/tn_sprintf.o
+ .debug_aranges
+                0x000000c8       0x20 ./objects/utils.o
+ .debug_aranges
+                0x000000e8       0x20 ./objects/tn_stm32f446_startup_gcc.o
+ .debug_aranges
+                0x00000108       0x20 ./objects/tn_port_cortexm0_m7.o
+ .debug_aranges
+                0x00000128       0x20 ./objects/tn_port_cortexm0_m7_asm.o
+ .debug_aranges
+                0x00000148       0x20 ./objects/tn_utils.o
+ .debug_aranges
+                0x00000168       0x20 ./objects/tn_timer.o
+ .debug_aranges
+                0x00000188       0x20 ./objects/tn_task.o
+ .debug_aranges
+                0x000001a8       0x20 ./objects/tn_sys.o
+ .debug_aranges
+                0x000001c8       0x20 ./objects/tn_sem.o
+ .debug_aranges
+                0x000001e8       0x20 ./objects/tn_mutex.o
+ .debug_aranges
+                0x00000208       0x20 ./objects/tn_mem.o
+ .debug_aranges
+                0x00000228       0x20 ./objects/tn_mailbox.o
+ .debug_aranges
+                0x00000248       0x20 ./objects/tn_event.o
+ .debug_aranges
+                0x00000268       0x20 ./objects/tn_dqueue.o
+ .debug_aranges
+                0x00000288       0x20 ./objects/tn.o
+ .debug_aranges
+                0x000002a8       0x20 ./objects/tn_alloc.o
+ .debug_aranges
+                0x000002c8       0x20 ./objects/stm32f4_uart.o
+ .debug_aranges
+                0x000002e8       0x20 ./objects/stm32f4xx_dma.o
+ .debug_aranges
+                0x00000308       0x20 ./objects/stm32f4xx_gpio.o
+ .debug_aranges
+                0x00000328       0x20 ./objects/stm32f4xx_rcc.o
+ .debug_aranges
+                0x00000348       0x20 ./objects/stm32f4xx_usart.o
+ .debug_aranges
+                0x00000368       0x20 ./objects/system_stm32f4xx.o
+ .debug_aranges
+                0x00000388       0x20 ./objects/test_common.o
+ .debug_aranges
+                0x000003a8       0x20 ./objects/test_dqueue.o
+ .debug_aranges
+                0x000003c8       0x20 ./objects/test_event.o
+ .debug_aranges
+                0x000003e8       0x20 ./objects/test_mailbox.o
+ .debug_aranges
+                0x00000408       0x20 ./objects/test_mem.o
+ .debug_aranges
+                0x00000428       0x20 ./objects/test_mutex.o
+ .debug_aranges
+                0x00000448       0x20 ./objects/test_sem.o
+ .debug_aranges
+                0x00000468       0x20 ./objects/test_task.o
+ .debug_aranges
+                0x00000488       0x20 ./objects/test_timer.o
+ .debug_aranges
+                0x000004a8       0x20 ./objects/test_utils.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x3329d
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2473 ./objects/project_main.o
+ .debug_info    0x00002473      0xbaf ./objects/tn_user.o
+ .debug_info    0x00003022     0x1a2c ./objects/utils_arch.o
+ .debug_info    0x00004a4e     0x1be9 ./objects/shell.o
+ .debug_info    0x00006637     0x160c ./objects/test_shell_func.o
+ .debug_info    0x00007c43      0x746 ./objects/tn_sprintf.o
+ .debug_info    0x00008389     0x147d ./objects/utils.o
+ .debug_info    0x00009806       0x26 ./objects/tn_stm32f446_startup_gcc.o
+ .debug_info    0x0000982c      0xf9b ./objects/tn_port_cortexm0_m7.o
+ .debug_info    0x0000a7c7       0x26 ./objects/tn_port_cortexm0_m7_asm.o
+ .debug_info    0x0000a7ed      0x8f1 ./objects/tn_utils.o
+ .debug_info    0x0000b0de      0xc0c ./objects/tn_timer.o
+ .debug_info    0x0000bcea      0xf22 ./objects/tn_task.o
+ .debug_info    0x0000cc0c      0xf9e ./objects/tn_sys.o
+ .debug_info    0x0000dbaa      0xb67 ./objects/tn_sem.o
+ .debug_info    0x0000e711      0xe29 ./objects/tn_mutex.o
+ .debug_info    0x0000f53a      0xda0 ./objects/tn_mem.o
+ .debug_info    0x000102da     0x1b83 ./objects/tn_mailbox.o
+ .debug_info    0x00011e5d      0xd10 ./objects/tn_event.o
+ .debug_info    0x00012b6d     0x12c7 ./objects/tn_dqueue.o
+ .debug_info    0x00013e34      0xa7d ./objects/tn.o
+ .debug_info    0x000148b1      0x98f ./objects/tn_alloc.o
+ .debug_info    0x00015240     0x21ed ./objects/stm32f4_uart.o
+ .debug_info    0x0001742d      0x7ae ./objects/stm32f4xx_dma.o
+ .debug_info    0x00017bdb      0x751 ./objects/stm32f4xx_gpio.o
+ .debug_info    0x0001832c     0x10ea ./objects/stm32f4xx_rcc.o
+ .debug_info    0x00019416      0xaff ./objects/stm32f4xx_usart.o
+ .debug_info    0x00019f15      0x6a1 ./objects/system_stm32f4xx.o
+ .debug_info    0x0001a5b6      0xc9f ./objects/test_common.o
+ .debug_info    0x0001b255     0x28be ./objects/test_dqueue.o
+ .debug_info    0x0001db13     0x2aad ./objects/test_event.o
+ .debug_info    0x000205c0     0x2d93 ./objects/test_mailbox.o
+ .debug_info    0x00023353     0x2e81 ./objects/test_mem.o
+ .debug_info    0x000261d4     0x4135 ./objects/test_mutex.o
+ .debug_info    0x0002a309     0x3599 ./objects/test_sem.o
+ .debug_info    0x0002d8a2     0x2788 ./objects/test_task.o
+ .debug_info    0x0003002a     0x1f8b ./objects/test_timer.o
+ .debug_info    0x00031fb5     0x12e8 ./objects/test_utils.o
+
+.debug_abbrev   0x00000000     0x6744
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3ca ./objects/project_main.o
+ .debug_abbrev  0x000003ca      0x1ef ./objects/tn_user.o
+ .debug_abbrev  0x000005b9      0x29d ./objects/utils_arch.o
+ .debug_abbrev  0x00000856      0x49b ./objects/shell.o
+ .debug_abbrev  0x00000cf1      0x287 ./objects/test_shell_func.o
+ .debug_abbrev  0x00000f78      0x2ec ./objects/tn_sprintf.o
+ .debug_abbrev  0x00001264      0x269 ./objects/utils.o
+ .debug_abbrev  0x000014cd       0x14 ./objects/tn_stm32f446_startup_gcc.o
+ .debug_abbrev  0x000014e1      0x264 ./objects/tn_port_cortexm0_m7.o
+ .debug_abbrev  0x00001745       0x14 ./objects/tn_port_cortexm0_m7_asm.o
+ .debug_abbrev  0x00001759      0x2c9 ./objects/tn_utils.o
+ .debug_abbrev  0x00001a22      0x2da ./objects/tn_timer.o
+ .debug_abbrev  0x00001cfc      0x28e ./objects/tn_task.o
+ .debug_abbrev  0x00001f8a      0x36e ./objects/tn_sys.o
+ .debug_abbrev  0x000022f8      0x27b ./objects/tn_sem.o
+ .debug_abbrev  0x00002573      0x2d7 ./objects/tn_mutex.o
+ .debug_abbrev  0x0000284a      0x2bd ./objects/tn_mem.o
+ .debug_abbrev  0x00002b07      0x36f ./objects/tn_mailbox.o
+ .debug_abbrev  0x00002e76      0x309 ./objects/tn_event.o
+ .debug_abbrev  0x0000317f      0x310 ./objects/tn_dqueue.o
+ .debug_abbrev  0x0000348f      0x22f ./objects/tn.o
+ .debug_abbrev  0x000036be      0x2a3 ./objects/tn_alloc.o
+ .debug_abbrev  0x00003961      0x38c ./objects/stm32f4_uart.o
+ .debug_abbrev  0x00003ced      0x1e9 ./objects/stm32f4xx_dma.o
+ .debug_abbrev  0x00003ed6      0x25b ./objects/stm32f4xx_gpio.o
+ .debug_abbrev  0x00004131      0x22d ./objects/stm32f4xx_rcc.o
+ .debug_abbrev  0x0000435e      0x204 ./objects/stm32f4xx_usart.o
+ .debug_abbrev  0x00004562      0x181 ./objects/system_stm32f4xx.o
+ .debug_abbrev  0x000046e3      0x221 ./objects/test_common.o
+ .debug_abbrev  0x00004904      0x36a ./objects/test_dqueue.o
+ .debug_abbrev  0x00004c6e      0x372 ./objects/test_event.o
+ .debug_abbrev  0x00004fe0      0x316 ./objects/test_mailbox.o
+ .debug_abbrev  0x000052f6      0x38c ./objects/test_mem.o
+ .debug_abbrev  0x00005682      0x33a ./objects/test_mutex.o
+ .debug_abbrev  0x000059bc      0x333 ./objects/test_sem.o
+ .debug_abbrev  0x00005cef      0x321 ./objects/test_task.o
+ .debug_abbrev  0x00006010      0x39f ./objects/test_timer.o
+ .debug_abbrev  0x000063af      0x395 ./objects/test_utils.o
+
+.debug_line     0x00000000     0x6b59
+ *(.debug_line)
+ .debug_line    0x00000000      0x3be ./objects/project_main.o
+ .debug_line    0x000003be      0x1fd ./objects/tn_user.o
+ .debug_line    0x000005bb      0x2dd ./objects/utils_arch.o
+ .debug_line    0x00000898      0x40a ./objects/shell.o
+ .debug_line    0x00000ca2      0x1ec ./objects/test_shell_func.o
+ .debug_line    0x00000e8e      0x268 ./objects/tn_sprintf.o
+ .debug_line    0x000010f6      0x304 ./objects/utils.o
+ .debug_line    0x000013fa       0xe4 ./objects/tn_stm32f446_startup_gcc.o
+ .debug_line    0x000014de      0x197 ./objects/tn_port_cortexm0_m7.o
+ .debug_line    0x00001675       0xf6 ./objects/tn_port_cortexm0_m7_asm.o
+ .debug_line    0x0000176b       0xe8 ./objects/tn_utils.o
+ .debug_line    0x00001853      0x183 ./objects/tn_timer.o
+ .debug_line    0x000019d6      0x23d ./objects/tn_task.o
+ .debug_line    0x00001c13      0x26d ./objects/tn_sys.o
+ .debug_line    0x00001e80      0x148 ./objects/tn_sem.o
+ .debug_line    0x00001fc8      0x1e1 ./objects/tn_mutex.o
+ .debug_line    0x000021a9      0x1d9 ./objects/tn_mem.o
+ .debug_line    0x00002382      0x306 ./objects/tn_mailbox.o
+ .debug_line    0x00002688      0x1aa ./objects/tn_event.o
+ .debug_line    0x00002832      0x232 ./objects/tn_dqueue.o
+ .debug_line    0x00002a64      0x13c ./objects/tn.o
+ .debug_line    0x00002ba0      0x190 ./objects/tn_alloc.o
+ .debug_line    0x00002d30      0x457 ./objects/stm32f4_uart.o
+ .debug_line    0x00003187      0x2cf ./objects/stm32f4xx_dma.o
+ .debug_line    0x00003456      0x254 ./objects/stm32f4xx_gpio.o
+ .debug_line    0x000036aa      0x3d8 ./objects/stm32f4xx_rcc.o
+ .debug_line    0x00003a82      0x342 ./objects/stm32f4xx_usart.o
+ .debug_line    0x00003dc4      0x1e2 ./objects/system_stm32f4xx.o
+ .debug_line    0x00003fa6       0xb6 ./objects/test_common.o
+ .debug_line    0x0000405c      0x50a ./objects/test_dqueue.o
+ .debug_line    0x00004566      0x517 ./objects/test_event.o
+ .debug_line    0x00004a7d      0x590 ./objects/test_mailbox.o
+ .debug_line    0x0000500d      0x52a ./objects/test_mem.o
+ .debug_line    0x00005537      0x703 ./objects/test_mutex.o
+ .debug_line    0x00005c3a      0x55c ./objects/test_sem.o
+ .debug_line    0x00006196      0x416 ./objects/test_task.o
+ .debug_line    0x000065ac      0x343 ./objects/test_timer.o
+ .debug_line    0x000068ef      0x26a ./objects/test_utils.o
+
+.debug_frame    0x00000000     0x3594
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xf4 ./objects/project_main.o
+ .debug_frame   0x000000f4       0x78 ./objects/tn_user.o
+ .debug_frame   0x0000016c       0x5c ./objects/utils_arch.o
+ .debug_frame   0x000001c8      0x144 ./objects/shell.o
+ .debug_frame   0x0000030c      0x180 ./objects/test_shell_func.o
+ .debug_frame   0x0000048c       0xbc ./objects/tn_sprintf.o
+ .debug_frame   0x00000548       0x70 ./objects/utils.o
+ .debug_frame   0x000005b8       0x64 ./objects/tn_port_cortexm0_m7.o
+ .debug_frame   0x0000061c       0xe8 ./objects/tn_utils.o
+ .debug_frame   0x00000704      0x108 ./objects/tn_timer.o
+ .debug_frame   0x0000080c      0x150 ./objects/tn_task.o
+ .debug_frame   0x0000095c      0x1e8 ./objects/tn_sys.o
+ .debug_frame   0x00000b44       0xe0 ./objects/tn_sem.o
+ .debug_frame   0x00000c24      0x108 ./objects/tn_mutex.o
+ .debug_frame   0x00000d2c       0xcc ./objects/tn_mem.o
+ .debug_frame   0x00000df8      0x100 ./objects/tn_mailbox.o
+ .debug_frame   0x00000ef8       0xec ./objects/tn_event.o
+ .debug_frame   0x00000fe4      0x130 ./objects/tn_dqueue.o
+ .debug_frame   0x00001114       0xa8 ./objects/tn.o
+ .debug_frame   0x000011bc       0x80 ./objects/tn_alloc.o
+ .debug_frame   0x0000123c       0xd4 ./objects/stm32f4_uart.o
+ .debug_frame   0x00001310      0x160 ./objects/stm32f4xx_dma.o
+ .debug_frame   0x00001470      0x124 ./objects/stm32f4xx_gpio.o
+ .debug_frame   0x00001594      0x3d0 ./objects/stm32f4xx_rcc.o
+ .debug_frame   0x00001964      0x224 ./objects/stm32f4xx_usart.o
+ .debug_frame   0x00001b88       0x40 ./objects/system_stm32f4xx.o
+ .debug_frame   0x00001bc8       0xb4 ./objects/test_common.o
+ .debug_frame   0x00001c7c      0x244 ./objects/test_dqueue.o
+ .debug_frame   0x00001ec0      0x264 ./objects/test_event.o
+ .debug_frame   0x00002124      0x29c ./objects/test_mailbox.o
+ .debug_frame   0x000023c0      0x2c4 ./objects/test_mem.o
+ .debug_frame   0x00002684      0x458 ./objects/test_mutex.o
+ .debug_frame   0x00002adc      0x458 ./objects/test_sem.o
+ .debug_frame   0x00002f34      0x220 ./objects/test_task.o
+ .debug_frame   0x00003154      0x130 ./objects/test_timer.o
+ .debug_frame   0x00003284      0x104 ./objects/test_utils.o
+ .debug_frame   0x00003388       0x38 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
+ .debug_frame   0x000033c0       0x30 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcasecmp.o)
+ .debug_frame   0x000033f0       0x28 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcat.o)
+ .debug_frame   0x00003418       0x68 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcmp.o)
+ .debug_frame   0x00003480       0x20 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+ .debug_frame   0x000034a0       0x6c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+ .debug_frame   0x0000350c       0x4c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x00003558       0x3c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-wctomb_r.o)
+
+.debug_str      0x00000000     0x58d5
+ *(.debug_str)
+ .debug_str     0x00000000     0x16ae ./objects/project_main.o
+                               0x18a2 (size before relaxing)
+ .debug_str     0x000016ae      0x18a ./objects/tn_user.o
+                                0x994 (size before relaxing)
+ .debug_str     0x00001838      0x1ae ./objects/utils_arch.o
+                               0x11f1 (size before relaxing)
+ .debug_str     0x000019e6      0x157 ./objects/shell.o
+                                0xea1 (size before relaxing)
+ .debug_str     0x00001b3d      0x1ef ./objects/test_shell_func.o
+                                0xcea (size before relaxing)
+ .debug_str     0x00001d2c      0x148 ./objects/tn_sprintf.o
+                                0x27e (size before relaxing)
+ .debug_str     0x00001e74       0x2f ./objects/utils.o
+                                0xd3e (size before relaxing)
+ .debug_str     0x00001ea3       0x45 ./objects/tn_stm32f446_startup_gcc.o
+                                 0x80 (size before relaxing)
+ .debug_str     0x00001ee8      0x152 ./objects/tn_port_cortexm0_m7.o
+                                0x9f1 (size before relaxing)
+ .debug_str     0x0000203a       0x32 ./objects/tn_port_cortexm0_m7_asm.o
+                                 0x7c (size before relaxing)
+ .debug_str     0x0000206c      0x125 ./objects/tn_utils.o
+                                0x674 (size before relaxing)
+ .debug_str     0x00002191      0x147 ./objects/tn_timer.o
+                                0x71c (size before relaxing)
+ .debug_str     0x000022d8      0x1dd ./objects/tn_task.o
+                                0x7b8 (size before relaxing)
+ .debug_str     0x000024b5      0x134 ./objects/tn_sys.o
+                                0x824 (size before relaxing)
+ .debug_str     0x000025e9       0x54 ./objects/tn_sem.o
+                                0x6af (size before relaxing)
+ .debug_str     0x0000263d       0xd3 ./objects/tn_mutex.o
+                                0x7d0 (size before relaxing)
+ .debug_str     0x00002710       0xf3 ./objects/tn_mem.o
+                                0x71c (size before relaxing)
+ .debug_str     0x00002803      0x196 ./objects/tn_mailbox.o
+                                0xbfd (size before relaxing)
+ .debug_str     0x00002999       0xfd ./objects/tn_event.o
+                                0x737 (size before relaxing)
+ .debug_str     0x00002a96       0x94 ./objects/tn_dqueue.o
+                                0x831 (size before relaxing)
+ .debug_str     0x00002b2a       0x8f ./objects/tn.o
+                                0x6bd (size before relaxing)
+ .debug_str     0x00002bb9       0xce ./objects/tn_alloc.o
+                                0x67d (size before relaxing)
+ .debug_str     0x00002c87       0xdf ./objects/stm32f4_uart.o
+                               0x1602 (size before relaxing)
+ .debug_str     0x00002d66      0x22b ./objects/stm32f4xx_dma.o
+                                0x58a (size before relaxing)
+ .debug_str     0x00002f91      0x181 ./objects/stm32f4xx_gpio.o
+                                0x4f8 (size before relaxing)
+ .debug_str     0x00003112      0x73d ./objects/stm32f4xx_rcc.o
+                                0xac5 (size before relaxing)
+ .debug_str     0x0000384f      0x371 ./objects/stm32f4xx_usart.o
+                                0x6d1 (size before relaxing)
+ .debug_str     0x00003bc0       0xa3 ./objects/system_stm32f4xx.o
+                                0x400 (size before relaxing)
+ .debug_str     0x00003c63      0x13c ./objects/test_common.o
+                                0x91a (size before relaxing)
+ .debug_str     0x00003d9f      0x2bd ./objects/test_dqueue.o
+                                0xf60 (size before relaxing)
+ .debug_str     0x0000405c      0x343 ./objects/test_event.o
+                               0x105b (size before relaxing)
+ .debug_str     0x0000439f      0x38c ./objects/test_mailbox.o
+                               0x103e (size before relaxing)
+ .debug_str     0x0000472b      0x312 ./objects/test_mem.o
+                               0x1096 (size before relaxing)
+ .debug_str     0x00004a3d      0x4ec ./objects/test_mutex.o
+                               0x1254 (size before relaxing)
+ .debug_str     0x00004f29      0x4f8 ./objects/test_sem.o
+                               0x10c1 (size before relaxing)
+ .debug_str     0x00005421      0x268 ./objects/test_task.o
+                                0xfaa (size before relaxing)
+ .debug_str     0x00005689      0x191 ./objects/test_timer.o
+                                0xee5 (size before relaxing)
+ .debug_str     0x0000581a       0xbb ./objects/test_utils.o
+                                0xa75 (size before relaxing)
+
+.debug_loc      0x00000000    0x13adb
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x389 ./objects/project_main.o
+ .debug_loc     0x00000389       0xa3 ./objects/tn_user.o
+ .debug_loc     0x0000042c      0x182 ./objects/utils_arch.o
+ .debug_loc     0x000005ae      0x9c7 ./objects/shell.o
+ .debug_loc     0x00000f75      0x4a4 ./objects/test_shell_func.o
+ .debug_loc     0x00001419      0xb2a ./objects/tn_sprintf.o
+ .debug_loc     0x00001f43      0x26c ./objects/utils.o
+ .debug_loc     0x000021af      0x1d0 ./objects/tn_port_cortexm0_m7.o
+ .debug_loc     0x0000237f      0x236 ./objects/tn_utils.o
+ .debug_loc     0x000025b5      0x66d ./objects/tn_timer.o
+ .debug_loc     0x00002c22      0xd24 ./objects/tn_task.o
+ .debug_loc     0x00003946      0xba2 ./objects/tn_sys.o
+ .debug_loc     0x000044e8      0x77c ./objects/tn_sem.o
+ .debug_loc     0x00004c64      0x858 ./objects/tn_mutex.o
+ .debug_loc     0x000054bc      0xa8c ./objects/tn_mem.o
+ .debug_loc     0x00005f48      0xe3e ./objects/tn_mailbox.o
+ .debug_loc     0x00006d86      0xa33 ./objects/tn_event.o
+ .debug_loc     0x000077b9      0xede ./objects/tn_dqueue.o
+ .debug_loc     0x00008697      0x39b ./objects/tn.o
+ .debug_loc     0x00008a32      0x713 ./objects/tn_alloc.o
+ .debug_loc     0x00009145      0x62f ./objects/stm32f4_uart.o
+ .debug_loc     0x00009774      0x480 ./objects/stm32f4xx_dma.o
+ .debug_loc     0x00009bf4      0x397 ./objects/stm32f4xx_gpio.o
+ .debug_loc     0x00009f8b      0xd54 ./objects/stm32f4xx_rcc.o
+ .debug_loc     0x0000acdf      0x88d ./objects/stm32f4xx_usart.o
+ .debug_loc     0x0000b56c      0x157 ./objects/system_stm32f4xx.o
+ .debug_loc     0x0000b6c3      0x23a ./objects/test_common.o
+ .debug_loc     0x0000b8fd      0xf56 ./objects/test_dqueue.o
+ .debug_loc     0x0000c853      0xdd7 ./objects/test_event.o
+ .debug_loc     0x0000d62a     0x1062 ./objects/test_mailbox.o
+ .debug_loc     0x0000e68c     0x1333 ./objects/test_mem.o
+ .debug_loc     0x0000f9bf     0x15fe ./objects/test_mutex.o
+ .debug_loc     0x00010fbd     0x12a7 ./objects/test_sem.o
+ .debug_loc     0x00012264      0xaaa ./objects/test_task.o
+ .debug_loc     0x00012d0e      0x87d ./objects/test_timer.o
+ .debug_loc     0x0001358b      0x550 ./objects/test_utils.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x33 ./objects/project_main.o
+ .ARM.attributes
+                0x00000033       0x33 ./objects/tn_user.o
+ .ARM.attributes
+                0x00000066       0x33 ./objects/utils_arch.o
+ .ARM.attributes
+                0x00000099       0x33 ./objects/shell.o
+ .ARM.attributes
+                0x000000cc       0x33 ./objects/test_shell_func.o
+ .ARM.attributes
+                0x000000ff       0x33 ./objects/tn_sprintf.o
+ .ARM.attributes
+                0x00000132       0x33 ./objects/utils.o
+ .ARM.attributes
+                0x00000165       0x21 ./objects/tn_stm32f446_startup_gcc.o
+ .ARM.attributes
+                0x00000186       0x33 ./objects/tn_port_cortexm0_m7.o
+ .ARM.attributes
+                0x000001b9       0x25 ./objects/tn_port_cortexm0_m7_asm.o
+ .ARM.attributes
+                0x000001de       0x33 ./objects/tn_utils.o
+ .ARM.attributes
+                0x00000211       0x33 ./objects/tn_timer.o
+ .ARM.attributes
+                0x00000244       0x33 ./objects/tn_task.o
+ .ARM.attributes
+                0x00000277       0x33 ./objects/tn_sys.o
+ .ARM.attributes
+                0x000002aa       0x33 ./objects/tn_sem.o
+ .ARM.attributes
+                0x000002dd       0x33 ./objects/tn_mutex.o
+ .ARM.attributes
+                0x00000310       0x33 ./objects/tn_mem.o
+ .ARM.attributes
+                0x00000343       0x33 ./objects/tn_mailbox.o
+ .ARM.attributes
+                0x00000376       0x33 ./objects/tn_event.o
+ .ARM.attributes
+                0x000003a9       0x33 ./objects/tn_dqueue.o
+ .ARM.attributes
+                0x000003dc       0x33 ./objects/tn.o
+ .ARM.attributes
+                0x0000040f       0x33 ./objects/tn_alloc.o
+ .ARM.attributes
+                0x00000442       0x33 ./objects/stm32f4_uart.o
+ .ARM.attributes
+                0x00000475       0x33 ./objects/stm32f4xx_dma.o
+ .ARM.attributes
+                0x000004a8       0x33 ./objects/stm32f4xx_gpio.o
+ .ARM.attributes
+                0x000004db       0x33 ./objects/stm32f4xx_rcc.o
+ .ARM.attributes
+                0x0000050e       0x33 ./objects/stm32f4xx_usart.o
+ .ARM.attributes
+                0x00000541       0x33 ./objects/system_stm32f4xx.o
+ .ARM.attributes
+                0x00000574       0x33 ./objects/test_common.o
+ .ARM.attributes
+                0x000005a7       0x33 ./objects/test_dqueue.o
+ .ARM.attributes
+                0x000005da       0x33 ./objects/test_event.o
+ .ARM.attributes
+                0x0000060d       0x33 ./objects/test_mailbox.o
+ .ARM.attributes
+                0x00000640       0x33 ./objects/test_mem.o
+ .ARM.attributes
+                0x00000673       0x33 ./objects/test_mutex.o
+ .ARM.attributes
+                0x000006a6       0x33 ./objects/test_sem.o
+ .ARM.attributes
+                0x000006d9       0x33 ./objects/test_task.o
+ .ARM.attributes
+                0x0000070c       0x33 ./objects/test_timer.o
+ .ARM.attributes
+                0x0000073f       0x33 ./objects/test_utils.o
+ .ARM.attributes
+                0x00000772       0x1c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000078e       0x2e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000007bc       0x2e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcasecmp.o)
+ .ARM.attributes
+                0x000007ea       0x2e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcat.o)
+ .ARM.attributes
+                0x00000818       0x1c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000834       0x2e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000862       0x1c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000087e       0x2e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x000008ac       0x2e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x000008da       0x2e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x00000908       0x2e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x00000936       0x2e c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-impure.o)
+OUTPUT(./Objects/test_CortexM4.elf elf32-littlearm)
+
+.debug_ranges   0x00000000      0xc38
+ .debug_ranges  0x00000000       0x48 ./objects/project_main.o
+ .debug_ranges  0x00000048       0xb0 ./objects/utils_arch.o
+ .debug_ranges  0x000000f8       0x80 ./objects/shell.o
+ .debug_ranges  0x00000178      0x1c8 ./objects/tn_sprintf.o
+ .debug_ranges  0x00000340       0x40 ./objects/tn_timer.o
+ .debug_ranges  0x00000380       0x98 ./objects/tn_task.o
+ .debug_ranges  0x00000418       0x78 ./objects/tn_sys.o
+ .debug_ranges  0x00000490       0x30 ./objects/tn_sem.o
+ .debug_ranges  0x000004c0       0x18 ./objects/tn_mutex.o
+ .debug_ranges  0x000004d8       0xb0 ./objects/tn_mem.o
+ .debug_ranges  0x00000588       0x38 ./objects/tn_mailbox.o
+ .debug_ranges  0x000005c0       0x88 ./objects/tn_event.o
+ .debug_ranges  0x00000648       0x90 ./objects/tn_dqueue.o
+ .debug_ranges  0x000006d8       0x38 ./objects/tn_alloc.o
+ .debug_ranges  0x00000710       0x30 ./objects/stm32f4_uart.o
+ .debug_ranges  0x00000740       0x90 ./objects/test_dqueue.o
+ .debug_ranges  0x000007d0       0x70 ./objects/test_event.o
+ .debug_ranges  0x00000840       0xa8 ./objects/test_mailbox.o
+ .debug_ranges  0x000008e8       0x90 ./objects/test_mem.o
+ .debug_ranges  0x00000978       0xd8 ./objects/test_mutex.o
+ .debug_ranges  0x00000a50      0x120 ./objects/test_sem.o
+ .debug_ranges  0x00000b70       0x60 ./objects/test_task.o
+ .debug_ranges  0x00000bd0       0x30 ./objects/test_timer.o
+ .debug_ranges  0x00000c00       0x38 ./objects/test_utils.o
+
+.comment        0x00000000       0x7e
+ .comment       0x00000000       0x7e ./objects/project_main.o
+                                 0x7f (size before relaxing)
+ .comment       0x0000007e       0x7f ./objects/tn_user.o
+ .comment       0x0000007e       0x7f ./objects/utils_arch.o
+ .comment       0x0000007e       0x7f ./objects/shell.o
+ .comment       0x0000007e       0x7f ./objects/test_shell_func.o
+ .comment       0x0000007e       0x7f ./objects/tn_sprintf.o
+ .comment       0x0000007e       0x7f ./objects/utils.o
+ .comment       0x0000007e       0x7f ./objects/tn_port_cortexm0_m7.o
+ .comment       0x0000007e       0x7f ./objects/tn_utils.o
+ .comment       0x0000007e       0x7f ./objects/tn_timer.o
+ .comment       0x0000007e       0x7f ./objects/tn_task.o
+ .comment       0x0000007e       0x7f ./objects/tn_sys.o
+ .comment       0x0000007e       0x7f ./objects/tn_sem.o
+ .comment       0x0000007e       0x7f ./objects/tn_mutex.o
+ .comment       0x0000007e       0x7f ./objects/tn_mem.o
+ .comment       0x0000007e       0x7f ./objects/tn_mailbox.o
+ .comment       0x0000007e       0x7f ./objects/tn_event.o
+ .comment       0x0000007e       0x7f ./objects/tn_dqueue.o
+ .comment       0x0000007e       0x7f ./objects/tn.o
+ .comment       0x0000007e       0x7f ./objects/tn_alloc.o
+ .comment       0x0000007e       0x7f ./objects/stm32f4_uart.o
+ .comment       0x0000007e       0x7f ./objects/stm32f4xx_dma.o
+ .comment       0x0000007e       0x7f ./objects/stm32f4xx_gpio.o
+ .comment       0x0000007e       0x7f ./objects/stm32f4xx_rcc.o
+ .comment       0x0000007e       0x7f ./objects/stm32f4xx_usart.o
+ .comment       0x0000007e       0x7f ./objects/system_stm32f4xx.o
+ .comment       0x0000007e       0x7f ./objects/test_common.o
+ .comment       0x0000007e       0x7f ./objects/test_dqueue.o
+ .comment       0x0000007e       0x7f ./objects/test_event.o
+ .comment       0x0000007e       0x7f ./objects/test_mailbox.o
+ .comment       0x0000007e       0x7f ./objects/test_mem.o
+ .comment       0x0000007e       0x7f ./objects/test_mutex.o
+ .comment       0x0000007e       0x7f ./objects/test_sem.o
+ .comment       0x0000007e       0x7f ./objects/test_task.o
+ .comment       0x0000007e       0x7f ./objects/test_timer.o
+ .comment       0x0000007e       0x7f ./objects/test_utils.o

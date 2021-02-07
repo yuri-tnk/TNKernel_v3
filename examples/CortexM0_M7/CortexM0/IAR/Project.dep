@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>1346678186</fileChecksum>
+    <configuration>
+        <name>STM32F070RB-Nucleo</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\stm32f070xb_flash.icf</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_port_CortexM0_M7.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_sem.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_event.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_alloc.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_user.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\List\Project.map</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_mailbox.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_sys.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_mem.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\project_main.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_timer.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_sem.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_utils.h</file>
+            <file>$PROJ_DIR$\..\prj_shell_func.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\stm32f0xx_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\stm32f0xx_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\stm32f0xx_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\system_stm32f0xx.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\common\shell.c</file>
+            <file>$PROJ_DIR$\..\project_main.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\CortexM0_M7\tn_port_CortexM0_M7.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_dqueue.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_event.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_mailbox.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_mutex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_mem.c</file>
+            <file>$PROJ_DIR$\..\tn_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\startup_stm32f070xb_iar.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\CortexM0_M7\tn_port_CortexM0_M7_asm.S</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_port.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_sys.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_task.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_utils.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn.c</file>
+            <file>$PROJ_DIR$\..\stm32f0xx_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_alloc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\stm32f0_uart.c</file>
+            <file>$PROJ_DIR$\..\prj_conf.h</file>
+            <file>$PROJ_DIR$\..\project_main.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\system_stm32f0xx.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\stm32f0xx_dma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\stm32f070xb.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\system_stm32f0xx.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\core_cmInstr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0xx_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\stm32f0xx_usart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\core_cm0.h</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_alloc.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_dqueue.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\stm32f0xx_rcc.h</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_mem.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\stm32f0xx_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\stm32f0xx.h</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0xx_rcc.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\shell.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0xx_dma.__cstat.et</file>
+            <file>$PROJ_DIR$\..\tn_user.c</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0xx_rcc.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\Project.pbd</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_task.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_user.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0xx_gpio.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_utils.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\common\shell.h</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\system_stm32f0xx.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_timer.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Exe\STM32F070RB-Nucleo.hex</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_utils.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_mutex.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_sys.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\prj_shell_func.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_mutex.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0_uart.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\shell.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_sem.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\project_main.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\prj_shell_func.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Exe\Project.out</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0xx_dma.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_task.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_dqueue.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0_uart.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_task.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0xx_rcc.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\startup_stm32f070xb_iar.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_mem.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_sem.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_alloc.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_event.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_dqueue.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0xx_gpio.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_user.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_mutex.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_timer.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_port_CortexM0_M7_asm.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\system_stm32f0xx.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\shell.pbi</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0xx_dma.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_utils.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_event.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_port_CortexM0_M7.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_sys.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\stm32f0_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_port_CortexM0_M7.__cstat.et</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_mailbox.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\project_main.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\prj_shell_func.o</file>
+            <file>$PROJ_DIR$\STM32F070RB-Nucleo\Obj\tn_mailbox.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 96 8</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_sem.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 34 70 46 85 50 54 56 88 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88 70 56 17 46 50 54 31 34 35 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\prj_shell_func.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 46 85 50 54 56 88 51 55 67 49 60 53 65 52 41 48 66 63 59 44 31 34 70 35 24 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46 80 70 44 51 60 67 34 88 85 55 65 59 41 31 24 50 54 56 49 52 66 57 53 48 63 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common_cortex\src\stm32f0xx_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 48 67 49 60 55 46 85 50 54 56 53 65 52 66 63 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53 66 67 55 46 63 59 60 48 49 52 65 41 85 50 54 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common_cortex\src\stm32f0xx_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48 67 49 60 55 46 85 50 54 56 53 65 52 41 66 63 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60 56 85 67 55 53 66 41 49 52 65 50 54 59 48 46 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common_cortex\src\stm32f0xx_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 67 49 60 55 46 85 50 54 56 53 65 52 41 48 66 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67 55 65 66 60 85 56 41 49 52 50 54 59 63 53 46 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common_cortex\src\system_stm32f0xx.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67 49 60 55 46 85 50 54 56 53 65 52 41 48 66 63 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 54 59 49 65 50 52 55 67 41 60 53 46 56 66 48 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common\shell.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 46 85 50 54 56 88 51 55 44 31 34 70 35 41 48 67 49 60 53 65 52 66 63 59 24 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 80 52 34 88 63 44 41 46 51 35 48 55 31 24 50 54 56 70 66 59 67 49 65 57 60 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\CortexM0_M7\tn_port_CortexM0_M7.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 46 85 50 54 56 88 51 31 34 70 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51 88 46 34 35 31 85 50 54 56 70 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_dqueue.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 34 70 46 85 50 54 56 88 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 17 35 31 34 70 46 88 50 54 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_event.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 34 70 46 85 50 54 56 88 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 17 35 31 34 70 46 88 50 54 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_mailbox.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 46 85 50 54 56 88 51 31 34 70 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50 54 70 85 34 56 31 17 46 88 51 35 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_mutex.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 34 70 46 85 50 54 56 88 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50 46 17 70 88 31 34 35 85 54 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_mem.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 34 70 46 85 50 54 56 88 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46 50 17 70 88 31 34 35 85 54 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common_cortex\src\startup_stm32f070xb_iar.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\CortexM0_M7\tn_port_CortexM0_M7_asm.S</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 31</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_sys.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 34 70 46 85 50 54 56 88 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35 17 85 31 34 70 46 88 50 54 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_task.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 34 70 46 85 50 54 56 88 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46 17 70 88 31 34 35 85 50 54 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 34 70 46 85 50 54 56 88 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54 50 46 17 70 88 56 31 34 35 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 34 70 46 85 50 54 56 88 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54 50 46 85 17 70 88 56 31 34 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 34 70 46 85 50 54 56 88 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 17 35 31 34 70 46 88 50 54 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_alloc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 46 85 50 54 56 88 51 31 34 70 35 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46 51 34 88 35 31 17 85 50 54 56 70 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common_cortex\src\stm32f0_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 46 85 50 54 56 57 88 51 67 49 60 53 65 52 41 48 66 63 59 44 31 34 70 35 24</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48 35 55 44 56 67 34 46 50 54 85 60 57 41 31 24 88 51 49 52 53 63 65 66 59 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\project_main.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 46 85 50 54 56 88 51 67 49 60 55 53 65 52 41 48 66 63 59 44 31 34 70 35 24 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85 88 52 31 41 24 46 51 49 65 48 35 67 44 34 80 50 54 56 60 55 63 57 53 66 59 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\tn_user.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67 49 60 55 46 85 50 54 56 53 65 52 41 48 66 63 59 44 31 34 70 88 35 24</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34 55 63 85 44 60 41 31 24 49 52 65 48 35 46 67 53 50 54 56 66 59 70 88</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\STM32F070RB-Nucleo\Exe\Project.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 2 126 125 92 103 100 117 109 102 115 111 106 108 107 124 104 112 120 114 105 121 101 113 110 118 0 14 1</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>

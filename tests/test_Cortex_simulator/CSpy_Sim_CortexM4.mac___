@@ -1,0 +1,9 @@
+execUserSetup()
+{
+  __message "CSpy_Sim.mac: Simulating OS timer interrupt";
+  __disableInterrupts();
+  __cancelAllInterrupts();
+  __orderInterrupt ("TIMER1_A0_VECTOR", 50000, 48870, 0, 0, 0, 100);
+  __setCodeBreak ("OS_SwitchFromInt", 0, "__popSimulatorInterruptExecutingStack()", "TRUE", "");
+  __enableInterrupts();
+}

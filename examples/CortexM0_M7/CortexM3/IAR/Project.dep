@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2310697402</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_event.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_mutex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_port.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_mem.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_utils.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\system_lpc176x.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_dqueue.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_sem.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_mailbox.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\lpc17xx_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\CortexM0_M7\tn_port_CortexM0_M7_asm.S</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_timer.c</file>
+            <file>$PROJ_DIR$\..\tn_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\lpc17xx_core.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\CortexM0_M7\tn_port_CortexM0_M7.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_alloc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_sys.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\common\shell.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\lpc17xx_startup_hardware_init.S</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\tn_LPC17XX_Startup_iar.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_task.c</file>
+            <file>$PROJ_DIR$\..\project_main.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_mailbox.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_mem.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_lpc176x.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_event.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_mutex.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_port_CortexM0_M7.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpc17xx_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpc17xx_core.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\shell.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_dqueue.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_alloc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_sys.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_task.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_sem.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_timer.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\prj_shell_func.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\project_main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_utils.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_user.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_lpc176x.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_dqueue.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_mem.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_port_CortexM0_M7.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\Project.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\shell.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_alloc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpc17xx_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_lpc176x.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\prj_shell_func.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_user.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\os\tn_utils.h</file>
+            <file>$PROJ_DIR$\..\project_main.c</file>
+            <file>$PROJ_DIR$\..\tn_user.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_mutex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\project_main.o</file>
+            <file>$PROJ_DIR$\..\prj_shell_func.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpc17xx_core.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\common\shell.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_task.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_mailbox.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_utils.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_LPC17XX_Startup_iar.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_port_CortexM0_M7.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_sys.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpc17xx_core.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpc17xx_uart.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\src\LPC1766_Flash.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Project.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\prj_shell_func.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\project_main.pbi</file>
+            <file>$PROJ_DIR$\Debug\List\Project.map</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_task.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_mem.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_timer.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_port_CortexM0_M7_asm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_mutex.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\lpc17xx_startup_hardware_init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_sem.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\LPC176x.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Project.hex</file>
+            <file>$PROJ_DIR$\..\prj_conf.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_utils.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_alloc.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\common_cortex\inc\lpc176x_uart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_user.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_mailbox.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_event.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_sem.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_event.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\shell.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_dqueue.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tn_sys.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_event.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 6 104 99 84 77 75 85 89 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 75 56 2 14 6 104 99 89 77 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_mutex.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 6 104 99 84 77 75 85 89 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 99 75 56 104 89 14 6 2 84 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_mem.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 6 104 99 84 77 75 85 89 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99 77 56 104 89 14 6 2 84 75 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 6 104 99 84 77 75 85 89 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 99 56 104 89 84 14 6 2 75 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common_cortex\src\system_lpc176x.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104 99 84 77 75 85 89 95 97 14 6 2 102 23 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75 6 97 23 84 85 99 104 95 14 102 63 89 77 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_dqueue.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 6 104 99 84 77 75 85 89 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 75 56 2 14 6 104 99 89 77 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 6 104 99 84 77 75 85 89 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 85 56 2 75 14 6 104 99 89 77</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_sem.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 6 104 99 84 77 75 85 89 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89 104 56 99 77 14 6 2 84 75 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_mailbox.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 99 84 77 75 85 89 100 14 6 104 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 84 104 6 14 56 99 89 100 75 85 2 112</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common_cortex\src\lpc17xx_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 99 84 77 75 85 89 100 95 97 14 6 104 2 102 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 99 6 104 97 23 77 95 14 102 89 100 75 85 2 112</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\CortexM0_M7\tn_port_CortexM0_M7_asm.S</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 14</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 6 104 99 84 77 75 85 89 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77 99 56 104 89 14 6 2 84 75 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common_cortex\src\lpc17xx_core.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76 99 84 77 75 85 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99 85 75 95 84 77 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\CortexM0_M7\tn_port_CortexM0_M7.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 99 84 77 75 85 89 100 14 6 104 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100 89 99 75 6 85 2 14 84 77 104 112</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_alloc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 99 84 77 75 85 89 100 14 6 104 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75 99 100 6 89 85 2 14 56 84 77 104 112</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_sys.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 6 104 99 84 77 75 85 89 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 2 75 56 84 85 14 6 104 99 89 77</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common\shell.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 99 84 77 75 85 89 100 76 97 14 6 104 2 102 23 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63 99 6 89 85 97 102 100 75 2 76 14 23 84 77 112 104</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common_cortex\src\lpc17xx_startup_hardware_init.S</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\common_cortex\src\tn_LPC17XX_Startup_iar.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\os\tn_task.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 6 104 99 84 77 75 85 89 2 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99 75 56 104 89 14 6 2 84 85 77</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Project.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 74 62 93 52 54 60 50 44 46 51 45 108 68 65 47 59 69 90 94 70 64 67 55 66 73 82 83</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\project_main.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 99 84 77 75 85 89 100 95 97 14 6 104 2 102 23 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 6 77 97 23 104 99 95 14 102 63 89 100 75 85 2 112</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\tn_user.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95 97 14 6 104 99 84 77 75 85 89 2 102 23 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 85 102 99 14 63 104 75 97 6 23 2 89 77 95</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\prj_shell_func.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 99 84 77 75 85 89 100 76 97 14 6 104 2 102 23 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 99 6 89 85 97 23 100 75 2 76 14 102 63 77 112 104</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 49 81</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\test_CortexM4_FP.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\test_CortexM4_FP_exit.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
