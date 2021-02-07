@@ -18,5 +18,4 @@ and MSP430X MPUs.
 
   The TNKernel v3 code is MISRA-C:2012 compliant (according to IAR C-STAT).
 
-     The directory */tests* contains a comprehensive set of the tests for
-  the all TNkernel v3 objects and ports.
+  The directory */tests* contains a comprehensive set of the tests for the all TNkernel v3 objects and ports.
