@@ -1,7 +1,6 @@
 # TNKernel_v3
 
-  TNKernel v3 is a small high performance RTOS with ports for the Cortex - M0/3/4/7
-and MSP430X MPUs.
+  TNKernel v3 is a small high performance RTOS with ports for the ARM, Cortex-M0/3/4/7 and MSP430X MPUs.
 
   TNKernel v3 supports:
 
